@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMAGES/LOGO1.png" type="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/master.css">
+    <title>Abdo Kafory</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="images/LOGO1.png" alt="" id="logo">
+                
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul id="navList" class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link" data-lang="home">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link" data-lang="about">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#transformation" class="nav__link" data-lang="transformation">Transformation</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="PRICING.html" class="nav__link" data-lang="pricing">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link" data-lang="clients">Clients</a>
+                    </li>
+                </ul>
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <!-- theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <!-- toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+                <select name="" id="language-selector">
+                    <option value="en" selected>English</option>
+                    <option value="ar">Arabic</option>
+                </select>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <!-- Video Background -->
+            <div class="video-container">
+              <video class="home__video" autoplay muted loop>
+                  <source src="IMAGES/video.mp4" type="video/mp4" type="video/mp4">
+              </video>
+              <div class="video-overlay"></div>
+          </div>
+          
+        
+            <!-- Image Background -->
+            <!-- <img src="images/IMG_7814.JPG" alt="" class="home__img"> -->
+        <div class="home__img">
+    
+        </div>
+            <div class="home__container container grid">
+              <div class="home__data">
+                <!-- <h1 class="home__data-title">Unlock your full potential</h1>
+                <a href="second.html" class="button">Get Start</a> -->
+                <h1 id="homeTitle" class="home__title">
+                    <span data-lang="welcome">Welcome to the world with</span>  <span style="color: var( --title-color); font-size: 2.4REM;" data-lang="welcomec" >Cap Kafory</span>
+                    <img src="IMAGES/Untitled_design__4_-removebg-preview.png" alt="" class="home__title-img-1">
+                    <img src="IMAGES/Untitled_design__4_-removebg-preview.png" alt="" class="home__title-img-2">
+                </h1>
+                <p id="homeDescription" class="home__description" data-lang="fitness_welcome">
+                    Welcome to fitness with Cap Kafory. Join us on a unique journey where each session is an exciting challenge.
+                </p>
+                <a href="second.html" class="button" data-lang="get_started">Get Started</a>
+              </div>
+              <!-- <img src="IMAGES/309316240_158899173492698_3805373137447769061_n.jpg" alt="" class="home__img"> -->
+              <!-- بقية محتوى قسم الـ home -->
+            </div>
+        
+          </section>
+
+      <div class="social">
+        <div class="social__container">
+            <div class="social__content">
+                <i class='bx bxl-facebook-circle social__icon'></i>
+                <div class="social__tooltip social__tooltip-left">172K</div>
+            </div>
+
+            <div class="social__content">
+                <i class='bx bxl-instagram-alt social__icon'></i>
+                <span class="social__tooltip social__tooltip-bottom">108K</span>
+            </div>
+
+            <!-- <div class="social__content">
+                <i class='bx bxl-twitter social__icon' ></i>
+                <span class="social__tooltip social__tooltip-bottom">12000 +</span>
+            </div> -->
+
+            <!-- <div class="social__content">
+                <i class='bx bxl-github social__icon' ></i>
+                <span class="social__tooltip social__tooltip-top">1500 +</span>
+            </div> -->
+
+            <div class="social__content">
+                <i class='bx bxl-youtube social__icon' ></i>
+                <span class="social__tooltip social__tooltip-right">4.68K</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!--============================About===================-->
+    <section class="section about" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title" data-lang="about_title2">About <span class="span__about">Abdul Ghafour</span></h2>
+<p id="aboutDescription" class="about__description" data-lang="about_description2">
+    Meet Abdo Kafory, a champion from Team KO Squad, the powerhouse in bodybuilding and fitness in the Middle East, and the primary sponsor of world champion Big Ramy. With numerous international championships under his belt, including 1st place at the Masla Menia Championship and 2nd places at Balance Pro and Muscle Fit Championships, Abdo has become a symbol of excellence in the field.
+</p>
+                
+                <p class="about__description" class="about__description" data-lang="about_description_3">
+                    Starting at 50 kilograms, Abdo's journey from a hobbyist to a seasoned professional in bodybuilding spans over 8 years. His transformative path has impacted many, inspiring them to pursue their dreams and focus on health and appearance.
+
+                </p>
+                <p class="about__description" data-lang="about_description_4" > 
+                       Beyond his online presence, Abdo's influence extends to motivating individuals. The success of the Kafory Classic 2023 championship garnered praise from Dr. Adel Fahim, President of the Egyptian, Arab, and African Bodybuilding Federation. The championship will be supervised by the Egyptian Bodybuilding Federation in 2024 from October.
+                </p>
+                <p class="about__description" data-lang="about_description_5" > 
+                       Abdo's ultimate dream is to become the youngest participant in the Mr. Olympia, the world's premier championship in bodybuilding and classic physique. These achievements reflect his dedication, inspiring countless individuals to strive for greatness.
+                </p>
+                <a href="second.html" class="button" data-lang="get_start_button">Get Start</a>
+            </div>
+    
+            <img src="IMAGES/dam2.JPG" alt="" class="about__img">
+        </div>
+    </section>
+               
+
+      <!--==================== FAQ ====================-->
+      <section class="questions section" id="faqs" data-aos="fade-left">
+        <h2 data-lang="why_choose_title"  class=" section__title">
+            Why Choose Captain <span>Abdo kafory</span>?
+        </h2>
+        <div class="questions__container container grid">
+            <div class="questions__group">
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title">
+                            How can Coach Abdo Kafory help me improve my fitness and achieve my goals?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description">
+                            Certainly, Coach Abdo Kafory brings over 8 years of experience in bodybuilding and fitness. He provides personalized programs based on his deep understanding of body needs and individual goals. Coach Kafory will offer you a tailored training plan and specific nutritional advice to help you enhance your fitness and achieve outstanding results.
+                        </p>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title2">
+                            What makes Coach Abdo Kafory's training approach stand out?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description2">
+                            Coach Abdo Kafory's training approach is distinctive due to his extensive 8+ years of experience in bodybuilding and fitness. He tailors programs based on individual needs, ensuring personalized training and nutritional plans for optimal results.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title3">
+                            How has Coach Kafory's guidance impacted the fitness journeys of his clients?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description3">
+                            Coach Abdo Kafory has positively influenced the fitness journeys of many clients. His expertise and personalized approach have motivated individuals to achieve their fitness goals, making a significant impact on their health and well-being.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title4">
+                            How does Captain Kafory inspire individuals to achieve their fitness goals?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description4">
+                            Captain Kafory is known for his motivational approach in the fitness world. Share some insights into how he encourages and guides individuals to overcome challenges and reach their fitness aspirations.
+                        </p>
+                    </div>
+                </div>
+                
+                
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title5">
+                            How can aspiring individuals benefit from participating in the Kafory Classic 2024 championship supervised by the Egyptian Bodybuilding Federation?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description5">
+                            With the Kafory Classic 2024 championship under the supervision of the Egyptian Bodybuilding Federation, how can individuals aspiring to enter the fitness world benefit from participating? What opportunities and experiences does this championship offer for their growth in the field?
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title6">
+                            How has Abdo Kafory inspired positive lifestyle changes beyond the realm of bodybuilding and fitness?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description6">
+                            Abdo Kafory's impact extends beyond the stage. How has his journey inspired individuals to make positive lifestyle changes, focusing not just on physical health but also on overall well-being? Share examples of people whose lives have been positively influenced by his message and guidance.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title7">
+                            In what ways does Abdo Kafory promote the importance of a balanced lifestyle, including both physical and mental well-being?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description"data-lang="questions_description7">
+                            Abdo Kafory emphasizes the significance of a balanced lifestyle. How does he incorporate mental well-being into his coaching philosophy, and what advice does he offer for maintaining a healthy balance between physical and mental fitness?
+                        </p>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="questions__item">
+                    <header class="questions__header">
+                        <i class="fa-solid fa-plus questions__icon"></i>
+                        <h3 class="questions__item-title" data-lang="questions_title8">
+                            What role does Abdo Kafory see himself playing in shaping the future of bodybuilding and fitness, especially for aspiring athletes?
+                        </h3>
+                    </header>
+                    <div class="questions__content">
+                        <p class="questions__description" data-lang="questions_description8">
+                            Looking ahead, how does Abdo Kafory envision his role in shaping the future of bodybuilding and fitness? Particularly, how does he plan to inspire and guide the next generation of aspiring athletes in achieving their goals and making a positive impact in the fitness community?
+                        </p>
+                    </div>
+                </div> -->
+                                
+              
+            </div>
+ 
+
+        </div>
+    </section>
+
+
+ 
+              <!--==================== TESTIMONIAL ====================-->
+              <section class="testimonial section container">
+                <h2 id="clientSayTitle" class="section__title" data-lang="client_say_title">
+                    What Our Client Say About Us ?
+                </h2>
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class=' fa-solid fa-quote-left' ></i>
+                                </div>
+                                <p id="testimonialDescription" class="testimonial__description" data-lang="testimonial_description">
+                                    Hands down, the best coach ever! I'm genuinely thrilled with my experience with you. You're skilled, and you truly deserve all the success. Thank you for everything!
+                                </p>
+                                
+                                <h3 class="testimonial__date">Novamber 25.2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="IMAGES/client1.jpeg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span id="testimonialProfileName" class="testimonial__perfil-name" data-lang="testimonial_profile_name">
+                                            Mariam
+                                        </span>
+                                        <!-- <span class="testimonial__perfil-detail">Director of a company</span> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class=' fa-solid fa-quote-left' ></i>
+                                </div>
+                                <p id="testimonialDescription2" class="testimonial__description arabic-font" data-lang="testimonial_description_2">
+                                    Honestly, I never imagined I could reach this level. You're truly skilled, and you've changed everything in my life. Thank you.
+                                </p>
+                                
+                                <h3 class="testimonial__date">Novamber 25. 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="IMAGES/client2.jpeg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span id="testimonialProfileName2" class="testimonial__perfil-name arabic-font" data-lang="testimonial_profile_name_2">
+                                            Ahmed
+                                        </span>
+                                        <!-- <span class="testimonial__perfil-detail">Director of a company</span> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class=' fa-solid fa-quote-left' ></i>
+                                </div>
+                                <p id="testimonialDescription3" class="testimonial__description arabic-font" data-lang="testimonial_description_3">
+                                    Consider yourself fortunate to be a client of this coach! I've achieved the body I've always wanted, and I want to express my gratitude here.
+                                </p>
+                                
+                                <h3 class="testimonial__date">Novamber 25. 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="IMAGES/client3.jpeg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span id="testimonialProfileName3" class="testimonial__perfil-name" data-lang="testimonial_profile_name_3">
+                                            Ramzy
+                                        </span>                                            <!-- <span class="testimonial__perfil-detail">Director of a company</span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt'></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square testimonial__square2"></div>
+                        <img src="IMAGES/dam1.JPG" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+
+   </main>
+
+       <!--==================== FOOTER ====================-->
+       <footer class="footer">
+        <div class="footer__container container grid">
+         <div >
+             <a href="#" class="footer__logo">
+ 
+                 <img src="IMAGES/LOGO2.png" alt=""  id="logo2">
+             </a>
+             <p id="footerDescription" class="footer__description" data-lang="footer_description">
+                 Passionate fitness expert with over 8 years of experience, Captain Kafory has achieved international recognition in bodybuilding. <br  data-lang="footer_descriptionbr"> Join him for a transformative fitness journey.
+             </p>
+              
+         </div>
+         <div class="footer__data grid">
+             <div>
+                 <h3 class="footer__title" data-lang="footer_link2">About</h3>
+                 <ul class="footer__links">
+                     <li>
+                         <a href="about.html" class="footer__link" data-lang="about">About</a>
+                     </li>
+                     <li>
+                         <a id="footerLink" href="about.html" class="footer__link" data-lang="footer_link">
+                             Faqs
+                         </a>
+                     </li>
+                     <li>
+                         <a href="about.html" class="footer__link" data-lang="clients">Clients</a>
+                     </li>
+                     <li>
+                         <a href="index.html#transformation" class="footer__link" data-lang="transformation">Transformation</a>
+                     </li>
+                 </ul>
+             </div>
+ 
+             <div>
+                 <h3 id="footerTitle" class="footer__title" data-lang="footer_title">
+                     Links
+                 </h3>
+                                 <ul class="footer__links">
+                     <li class="nav__item">
+                         <a href="index.html" class="footer__link" data-lang="home">Home</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="about.html" class="footer__link" data-lang="about">About</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="index.html#transformation" class="footer__link" data-lang="transformation">Transformation</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="PRICING.html" class="footer__link" data-lang="pricing">Pricing</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="about.html" class="footer__link" data-lang="clients">Clients</a>
+                     </li>
+                 </ul>
+             </div>
+ 
+             <div>
+                 <h3 class="footer__title">Contact</h3>
+                 <ul class="footer__links">
+                     <li>
+                         <address class="footer__info">
+                             <a class="footer__link" href="#">email@gmail.com</a>
+                             
+                         </address>
+                     </li>
+                     <li>
+                         <address class="footer__info">
+                             <a class="footer__link" href="#">01018618</a>
+                         </address>
+                     </li>
+                 </ul>
+             </div>
+ 
+             <div>
+                 <h3 class="footer__title">socail</h3>
+                <div class="footer__social">
+                 <a href="#" target="_blank" class="footer__social-link">
+                     <i class="fa-brands fa-facebook"></i>
+                 </a>
+                 <a href="#" target="_blank" class="footer__social-link">
+                     <i class="fa-brands fa-instagram"></i>
+                 </a>
+                 <a href="#" target="_blank" class="footer__social-link">
+                     <i class="fa-brands fa-whatsapp"></i>
+                 </a>
+               
+                 <a href="#" target="_blank" class="footer__social-link">
+                     <i class="fa-brands fa-youtube"></i>
+                 </a>
+                </div>
+             </div>
+         </div>
+        </div>
+        <span class="footer_copy">
+         &#169; 2023 <span><a href="#" class="mo">Moalramly</a></span>. All right reserved
+        </span>
+     </footer>
+    <!--========== SCROLL UP ==========-->
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+<!-- <script>let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+        li[i].addEventListener("click", (e) => {
+            let clickedLi;
+            if (e.target.classList.contains("question-arrow")) {
+                clickedLi = e.target.parentElement;
+            } else {
+                clickedLi = e.target.parentElement.parentElement;
+            }
+            clickedLi.classList.toggle("showAnswer");
+        });
+    }
+    </script> -->
+    <!--=============== SWIPER JS ===============-->
+    <!-- <script >let faqJsonUrl = "https://gist.githubusercontent.com/ReneHabermann/c07cc2d9fa968b55f1b7a4f1b7f268c1/raw/dome.json"
+
+        buildFaq(faqJsonUrl)
+        
+        async function buildFaq(url) {
+            let response = await fetch(url)
+            let sections = await response.json()
+            
+            const faq = document.querySelector("#faq")
+            
+            let secIndex = 0
+            for (let section in sections) {
+                secIndex++
+                let sec = document.createElement("sectiono")
+                sec.className = "sectiono"
+                
+                let secTitle = document.createElement("h2")
+                secTitle.innerText = section
+                sec.appendChild(secTitle)
+                
+                let tabs = document.createElement("div")
+                tabs.className = "tabs"
+                
+                let questions = sections[section]
+                for (let questionIndex in questions) {
+                    let tab = document.createElement("div")
+                    tab.className = "tab"
+                    
+                        let inputId = section + "-" + questionIndex
+                        let check = document.createElement("input")
+                        check.type = "checkbox"
+                        check.id = inputId
+                        tab.appendChild(check)
+                    
+                        let label = document.createElement("label")
+                        label.className = "tab-label"
+                        label.htmlFor = inputId
+        
+                            let container = document.createElement("div")
+                                let qInd = parseInt(questionIndex) + 1
+                                let qLabel = document.createElement("span")
+                                qLabel.className = "q-label"
+                                qLabel.innerText = "Q." + secIndex + '.' + qInd
+        
+                                let q = document.createElement("span")
+                                q.innerText = questions[questionIndex].q
+                            container.appendChild(qLabel)
+                            container.appendChild(q)
+                                
+                            if(questions[questionIndex].s) {
+                                let tldr = document.createElement("div")
+                                tldr.className = "tldr"
+                                tldr.innerText = "TLDR:  " + questions[questionIndex].s
+                                container.appendChild(tldr)
+                            }
+                            label.appendChild(container)
+                        tab.appendChild(label)
+        
+                        let answer = document.createElement("div")
+                        answer.className = "tab-content"
+                        answer.innerHTML = questions[questionIndex].a.replace(/(https:\/\/[\w\.\/-]*)/g, "<a href='$1' target='_blank'>$1</a>")
+                        tab.append(answer)
+                    
+                    tabs.appendChild(tab)
+                }
+                
+                sec.appendChild(tabs)
+                faq.appendChild(sec)
+            }
+            document.querySelector("#loader").remove()
+        }
+        </script> -->
+
+    <!--=============== MAIN JS ===============-->
+    <script src="JS/language.js"></script>
+    <script src="JS/swiper-bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/nav.js"></script>
+    
+ </body>
+</html>
